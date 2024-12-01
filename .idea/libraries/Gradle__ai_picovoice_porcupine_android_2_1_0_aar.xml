@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: ai.picovoice:porcupine-android:2.1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/ddcf8d5d286630c1e6ef622ea18fd888/transformed/jetified-porcupine-android-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/ddcf8d5d286630c1e6ef622ea18fd888/transformed/jetified-porcupine-android-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/ddcf8d5d286630c1e6ef622ea18fd888/transformed/jetified-porcupine-android-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.picovoice/porcupine-android/2.1.0/9760bc3bd277a5e0bfc0b0b396e91e7dbcd9794e/porcupine-android-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.picovoice/porcupine-android/2.1.0/2d8ed9f88ff991afcc41250ce2db9388da0d8b8c/porcupine-android-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

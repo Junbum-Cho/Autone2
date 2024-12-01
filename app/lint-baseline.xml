@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.4.2" type="baseline" client="gradle" dependencies="false" name="AGP (8.4.2)" variant="fatal" version="8.4.2">
+
+    <issue
+        id="DuplicateIds"
+        message="Duplicate id `@+id/friendWhiteBoxViewTwo`, already defined earlier in this layout"
+        errorLine1="        android:id=&quot;@+id/friendWhiteBoxViewTwo&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_map_main_screen.xml"
+            line="87"
+            column="9"/>
+        <location
+            file="src/main/res/layout/activity_map_main_screen.xml"
+            line="74"
+            column="9"
+            message="Duplicate id `@+id/friendWhiteBoxViewTwo` originally defined here"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="Cannot be relative to self: id=friendWhiteBoxViewTwo, layout_constraintStart_toEndOf=friendWhiteBoxViewTwo"
+        errorLine1="        app:layout_constraintStart_toEndOf=&quot;@+id/friendWhiteBoxViewTwo&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_map_main_screen.xml"
+            line="82"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/imageView59` is not a sibling in the same `ConstraintLayout`"
+        errorLine1="        app:layout_constraintTop_toTopOf=&quot;@+id/imageView59&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_second_select_new_wifi_tag.xml"
+            line="62"
+            column="9"/>
+    </issue>
+
+</issues>

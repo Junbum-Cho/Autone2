@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Identity_view">
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/autone_main_background" />
+
+    <View
+        android:id="@+id/friendWhiteBoxViewTwo"
+        android:layout_width="0dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/notifications_textbox"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView45"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/previous_button" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-black"
+        android:text="나의 정보 "
+        android:textColor="#570861"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView44"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="성함: "
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="User Name"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="생년월일:"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="성별:"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="주민등록번호:"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="주소:"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="AD"
+        android:textColor="#570861"
+        android:textSize="20dp"
+        android:translationZ="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView55"
+        app:layout_constraintStart_toEndOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView53"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="만료일:"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="DOE"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintStart_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="number"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="M/F"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView51"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="DOB"
+        android:textColor="#570861"
+        android:textSize="22sp"
+        android:translationZ="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView50"
+        app:layout_constraintStart_toEndOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        app:srcCompat="@drawable/identify_user_id_card" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="105dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:translationZ="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo"
+        app:srcCompat="@drawable/user_identity_update_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

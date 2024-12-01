@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.autone">
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Kakao Map용 권한 추가 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- WIFI용 권한 추가 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- GPT용 INTERNET 권한 추가 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 녹음용 권한 추가 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 녹음용 권한 추가 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 흔들림 감지 권한 추가 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Autone"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="adjustNothing"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="33">
+
+        <activity
+            android:name=".crime_detected"
+            android:exported="false" />
+        <activity
+            android:name=".shaking_detected"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.autone.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="@string/permissions_loader_meta_key"
+            android:value="android.permission.RECEIVE_SMS" />
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:screenOrientation="portrait"
+            android:value="b95f318171a924f3b6e9d8861fb78e31" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Create_user_account"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".autone_final_report_screen_2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Autone_Final_Report_Screen_1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Report_progress_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".searching_new_wifi_in_progress"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Map_main_screen"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".User_Identity_view"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_family_member"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Friends_List"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Notificaitons_center_requests"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notification_Center_Crime"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Adjust_voice_volume"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".voice_recognition_settings"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Entry_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WiFi_Tag_Screen"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Statistics_and_Files"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_confirm_details_before_creating_account"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_identification_upload_before_account"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Load_Autone_Screen"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".User_profile"
+            android:exported="false" />
+
+        <service
+            android:name=".ShakeDetectionService"
+            android:exported="false"
+            android:foregroundServiceType="camera|microphone|location" />
+
+        <service
+            android:name=".STTService"
+            android:exported="false" />
+
+        <activity
+            android:name=".ShakingDetectedActivity"
+            android:exported="false" />
+
+        <activity android:name=".CrimeDetectedActivity" />
+
+    </application>
+
+</manifest>

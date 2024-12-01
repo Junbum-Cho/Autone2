@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter() // Warning: this repository is going to shut down soon
+        mavenCentral()
+        maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.picovoice.ai/repository/maven-public/' }
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "Autone"
+include ':app'

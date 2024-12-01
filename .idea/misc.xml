@@ -1,0 +1,112 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.39745262256567027" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/actual_round_botton_navy.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/actual_round_botton_normal_blue.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/actual_round_button.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/actual_round_button_blue_with_border.xml" value="0.209" />
+        <entry key="app/src/main/res/drawable/actual_round_button_red.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/adjust_voice_volume_seek_thumb.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/adjust_voice_volume_seekbar.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/buttons_shadow_effect.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/center_bar.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/custom_progress_bar.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/friends_list_search_bar_navy.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.298" />
+        <entry key="app/src/main/res/drawable/map_control_bar.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/map_search_bar.xml" value="0.2255" />
+        <entry key="app/src/main/res/drawable/map_search_bar_left.xml" value="0.23" />
+        <entry key="app/src/main/res/drawable/map_white_control_bar_middle.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/map_white_control_bar_right.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/notification_high_bar.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/notifications_textbox.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/round_button.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/round_button_for_notification_left.xml" value="0.2255" />
+        <entry key="app/src/main/res/drawable/round_button_for_notification_right.xml" value="0.2105" />
+        <entry key="app/src/main/res/drawable/underline_text.xml" value="0.2265" />
+        <entry key="app/src/main/res/layout/activity_add_family_member.xml" value="0.2490170565518465" />
+        <entry key="app/src/main/res/layout/activity_adjust_voice_volume.xml" value="0.38050537109375" />
+        <entry key="app/src/main/res/layout/activity_autone_final_report_screen1.xml" value="0.3634567901234568" />
+        <entry key="app/src/main/res/layout/activity_autone_final_report_screen2.xml" value="0.37788696289062507" />
+        <entry key="app/src/main/res/layout/activity_autone_report_screen.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.3236953735351562" />
+        <entry key="app/src/main/res/layout/activity_crime_detected.xml" value="0.33153153153153153" />
+        <entry key="app/src/main/res/layout/activity_entry_screen.xml" value="0.334015356976053" />
+        <entry key="app/src/main/res/layout/activity_friends_list.xml" value="0.29700164794921874" />
+        <entry key="app/src/main/res/layout/activity_log_in_page.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2740066528320313" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.350225830078125" />
+        <entry key="app/src/main/res/layout/activity_main_screen.xml" value="0.3601791381835941" />
+        <entry key="app/src/main/res/layout/activity_map_main_screen.xml" value="0.3360730593607306" />
+        <entry key="app/src/main/res/layout/activity_map_search_emergency_center.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/activity_notificaitons_requests.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_notification_center_crime.xml" value="0.31825195423271607" />
+        <entry key="app/src/main/res/layout/activity_notification_requests.xml" value="0.309955298382303" />
+        <entry key="app/src/main/res/layout/activity_prompt_holder.xml" value="0.33153153153153153" />
+        <entry key="app/src/main/res/layout/activity_prompt_storage.xml" value="0.1725225225225225" />
+        <entry key="app/src/main/res/layout/activity_report_progress_screen.xml" value="0.33435639423646013" />
+        <entry key="app/src/main/res/layout/activity_searching_new_wifi_in_progress.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/activity_second_select_new_wifi_tag.xml" value="0.263963963963964" />
+        <entry key="app/src/main/res/layout/activity_select_new_wifi_tag.xml" value="0.2845809936523438" />
+        <entry key="app/src/main/res/layout/activity_shaking_detected.xml" value="0.31024475097656246" />
+        <entry key="app/src/main/res/layout/activity_statistics_and_files.xml" value="0.36080893057363994" />
+        <entry key="app/src/main/res/layout/activity_user_confirm_detail.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/activity_user_confirm_detail_before_account.xml" value="0.5331283569335937" />
+        <entry key="app/src/main/res/layout/activity_user_confirm_details.xml" value="0.34549255371093757" />
+        <entry key="app/src/main/res/layout/activity_user_identification.xml" value="0.3176300048828125" />
+        <entry key="app/src/main/res/layout/activity_user_identification_before_account.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/activity_user_identity.xml" value="0.45353546142578127" />
+        <entry key="app/src/main/res/layout/activity_user_login.xml" value="0.28669586181640627" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.39963989257812504" />
+        <entry key="app/src/main/res/layout/activity_voice_recognition_settings.xml" value="0.40959320068359373" />
+        <entry key="app/src/main/res/layout/activity_wi_fi_tag.xml" value="0.31517944335937503" />
+        <entry key="app/src/main/res/layout/activity_wifi_list_adapter.xml" value="0.25749180424320806" />
+        <entry key="app/src/main/res/layout/file_and_statistics.xml" value="0.42303771972656257" />
+        <entry key="app/src/main/res/layout/files_and_statistics_text_box.xml" value="0.23097826086956522" />
+        <entry key="app/src/main/res/layout/fragment__w_i_f_i__password.xml" value="0.263963963963964" />
+        <entry key="app/src/main/res/layout/fragment_delete_friend_popup.xml" value="0.263963963963964" />
+        <entry key="app/src/main/res/layout/fragment_delte_friend_popup.xml" value="0.29278323886630775" />
+        <entry key="app/src/main/res/layout/fragment_emergency_center_address_list.xml" value="0.3863172700133505" />
+        <entry key="app/src/main/res/layout/fragment_find_and_add_chocie_of_wifi.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/fragment_list_of_friends.xml" value="0.3869284415030265" />
+        <entry key="app/src/main/res/layout/fragment_map_main_screen_white_box.xml" value="0.263963963963964" />
+        <entry key="app/src/main/res/layout/fragment_map_main_screen_white_box2.xml" value="0.263963963963964" />
+        <entry key="app/src/main/res/layout/fragment_notification_box.xml" value="0.2984341622365161" />
+        <entry key="app/src/main/res/layout/fragment_notification_friend_request.xml" value="0.4666194774486399" />
+        <entry key="app/src/main/res/layout/fragment_notification_request_box.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/fragment_wifi_password.xml" value="0.27702702702702703" />
+        <entry key="app/src/main/res/layout/fragment_wifi_tags.xml" value="0.4929458618164062" />
+        <entry key="app/src/main/res/layout/identification_user.xml" value="0.3025537893991873" />
+        <entry key="app/src/main/res/layout/item_layout.xml" value="0.26306306306306304" />
+        <entry key="app/src/main/res/layout/list_of_signals.xml" value="0.38957369692690735" />
+        <entry key="app/src/main/res/layout/loading_autone_screen.xml" value="0.33153153153153153" />
+        <entry key="app/src/main/res/layout/map_bottom_sheet.xml" value="0.27612612612612614" />
+        <entry key="app/src/main/res/layout/map_bottom_sheet_info.xml" value="0.3145416259765625" />
+        <entry key="app/src/main/res/layout/map_main_screen_white_box.xml" value="0.26306306306306304" />
+        <entry key="app/src/main/res/layout/map_search_bar.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/signal_bottom_sheet.xml" value="0.27612612612612614" />
+        <entry key="app/src/main/res/layout/user_id_confirm_details.xml" value="0.23540815270465354" />
+        <entry key="app/src/main/res/layout/wifi_item.xml" value="0.43621643066406257" />
+        <entry key="app/src/main/res/menu/menu_bottom.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/file_paths.xml" value="0.1962962962962963" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3415481567382813" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".notification_friend_request">
+
+    <View
+        android:id="@+id/friendWhiteBoxViewTwo"
+        android:layout_width="360dp"
+        android:layout_height="130dp"
+        android:layout_marginVertical="15dp"
+        android:background="@drawable/notifications_textbox"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/home_profile_icon"
+        android:translationZ="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintStart_toStartOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:maxWidth="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="User"
+        android:textColor="#610861"
+        android:textSize="18sp"
+        android:translationZ="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView100"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="relation"
+        android:textColor="#610861"
+        android:textSize="18sp"
+        android:translationZ="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView99"
+        app:layout_constraintEnd_toEndOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView99"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="right"
+        android:text="님께서 "
+        android:textColor="#610861"
+        android:textSize="18sp"
+        android:translationZ="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView87"
+        app:layout_constraintTop_toTopOf="@+id/friendWhiteBoxViewTwo" />
+
+    <TextView
+        android:id="@+id/textView1000"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="left"
+        android:text="로 추가를 요청했습니다. "
+        android:textColor="#610861"
+        android:textSize="17sp"
+        android:translationZ="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/imageView100"
+        app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/accept_a_friend_request"
+        android:translationZ="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintStart_toEndOf="@+id/imageView100"
+        app:layout_constraintTop_toBottomOf="@+id/textView1000"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView102"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/deny_a_friend_request"
+        android:translationZ="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintEnd_toEndOf="@+id/friendWhiteBoxViewTwo"
+        app:layout_constraintStart_toEndOf="@+id/imageView101"
+        app:layout_constraintTop_toBottomOf="@+id/textView1000"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

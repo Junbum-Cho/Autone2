@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/src/main/jniLibs/libDaumMapAndroid.jar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/src/main/jniLibs/libDaumMapAndroid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "autone-d5028",
+  "private_key_id": "748ec0fdc812444377fe3592d054fb4783ef7677",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCscwqnQeg3A+Bd\nyzU2kdX8J6+kT1e6VRptuEdGGThNTELbe6I0YakxDs/6U1XDzAL7gf0CRnv4Thib\nfn85tAbyR50rqxxWsjDnOmnYpA43frLFqFRN8an/dKaIrvxF7CJKgQL0r6fqTI1X\nW4JsrgP0FOyM++R6TkPLQ1MREHFhw8JpqqIBEcvKKqA3Kinor8uAx9O9F4pWfk6q\nFw8VAETAvfO8ODYBNfPNVuT8Y6reE0oWTxHYHkCClUZmRHnlAGSlhl/7jAlB9JwP\nRYa7GOwrwkD6acCKFuX4axd490n6OFVEQUrxsH8jKt38IDMMHlfIY55S/Ay7zQ0R\nkZ2Zi2GlAgMBAAECggEACCUw6iCHTt3sgZGhFFBEGrJnLewfeSoe4vLSzwFO8vu4\nprRKv42jV7Fa6nh4MxTWSTnlEO/yWBKcP+/0I24Y6+WtC0x8PK4S+ED+keCB2WYv\nHH3saXgSLwI8AXW+bbEPF5TLZnJLjJoMDQXB/c8kWamJWMlnC83ZjubBrCsqJ9Nq\n4/xvBwHMfCw/1NHBBXet69O4TDezf5CkOs4YDXShjCoXSbf2qfus8ne6zyC+0tne\nG7a1LrtF/tOsidbbcOcVtqWn0b1yte9d/JaXQj17L/VTI1ApFhw0FfvV+xb+VWwK\nCFuYwSjczL9Gff8c4agDiE+iktdWPGkcxM0QWK1gywKBgQDbR0anpUD+0VJ6LvMK\nITUEjeZbGB2TRoDL/fJGxxWFzJvrs9/BPPxfyiMSvzQdzMMaKwsTKqSMbE7DF4gu\nNvoWTOzE2b0cPSK47U+MG9ZbNmqUqstLpkaELg/KzKaqzU9Nox/mWL5XNGeovKk/\nsCbgaOwHMrU1Vx9ZWE6/NZghxwKBgQDJVCZIOew3c5gYtitPpQSl/fNyxyHEgqSq\nX4k79Qo2mNx76Xo1LJCq8zoAO3xiTas+d7TjzhAomp+3fZgXRHR+v4gortUMvoSR\njVdfKKW6+a7qE7gPjyVXOwr1bhW0MDqTkUhV8C97XlxkKHcVsvn5GnsdWe0v/JIl\n25iI0Q4hMwKBgQDMHWwCsAxxZs48mCl6W3DrvV8ZmrglGLLZsJjvE3DQbKcTYAu/\n6BIQ5KuDTuKnfqx6VmjnvYEQid1DM0t7oYdobNDVaM3lVG9W7uhmRp9hpqTNoLK+\nx5fKgMoIgDoAsj7IyTjvhdogeNKpOnzdoQ5/RIu5I5WUgnXXCCG9UZk8jwKBgQCa\nnoH4HmQIAkLhV6bTuAxl3y9FCyIn5Z3JKy4eWgbJ/4P1tk4g4GUKpVn6K7VPWg8W\nHqFSA0PtqzLWnSJdXDmLzlUnyX3eF8OAdWiQsIr3miJ3q0VEzc8Du1ijPTR1+kRC\naOWA+sG8oa+bTGiIxbetVGURGatLm1IyuP/gs42CeQKBgBCFwXzBph6gUTknDLcw\nVAP7igcCg4s4vzhk+obpu7OrKW4cfgKVvYuQ+z8ABLScvqWcN6g6wbUaZSOLjFsm\nHBnRAyf+jD2i7zAPvb9CnzrXvKu7m2E75siDDKKbRkwxgOZPMfjAmXb3WTlGWIA9\n/j+Y9hlvpPDo2czZaT0wsTzD\n-----END PRIVATE KEY-----\n",
+  "client_email": "detect-crime-stt@autone-d5028.iam.gserviceaccount.com",
+  "client_id": "115956720675710415704",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/detect-crime-stt%40autone-d5028.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
