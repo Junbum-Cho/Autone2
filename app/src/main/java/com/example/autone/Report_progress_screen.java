@@ -300,7 +300,7 @@ public class Report_progress_screen extends AppCompatActivity {
         if (requestCode == PERMISSIONS_REQUEST_SEND_SMS) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // Permission granted, send the SMS
-                sendSMSMessage("01046660336", gptPromptForSMS);
+                sendSMSMessage("911", gptPromptForSMS);
             } else {
                 // Permission denied, show a message to the user
                 Toast.makeText(this, "SMS Permission Denied", Toast.LENGTH_SHORT).show();
@@ -323,7 +323,7 @@ public class Report_progress_screen extends AppCompatActivity {
         String reportMessage = gptPromptForSMS + "\nNearest Emergency Center: " + emergencyCenterAddress;
 
         // Replace with a test number or real emergency number
-        String testPhoneNumber = "01046660336";
+        String testPhoneNumber = "911";
 
         // Check if the permission is granted or request it before sending
         System.out.println(testPhoneNumber);
