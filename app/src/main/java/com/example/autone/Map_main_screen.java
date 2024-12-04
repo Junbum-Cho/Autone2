@@ -63,7 +63,7 @@ public class Map_main_screen extends AppCompatActivity implements mCurrentLocati
     private Map_main_screen_Adapter crimeAdapter;
     private Location userLocation;
     private OkHttpClient client = new OkHttpClient();
-    private static final String KAKAO_API_KEY = "7cb5034d3170de7caea7f9eb98a29b8b"; // Use your Kakao API key
+    private static final String KAKAO_API_KEY = "API_KEY"; // Use your Kakao API key
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
