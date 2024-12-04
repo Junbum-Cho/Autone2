@@ -100,7 +100,7 @@ public class Report_progress_screen extends AppCompatActivity {
     public static  final MediaType JSON = MediaType.get("application/json; charset=utf-8");
     OkHttpClient client;
 
-    private static final String MY_SECRET_KEY = "sk-proj-EcukJCxt4zUU2wKGoz0zT3BlbkFJz9dHmX12rMaAc9CxBSjy";
+    private static final String MY_SECRET_KEY = "API_KEY";
     private static final String KAKAO_API_KEY = "API_KEY"; // Add your Kakao API key here
 
     @RequiresApi(api = Build.VERSION_CODES.O)
