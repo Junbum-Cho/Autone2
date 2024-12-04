@@ -43,7 +43,7 @@ import java.io.IOException;
 public class Autone_Final_Report_Screen_1 extends AppCompatActivity {
 
     private static final String TAG = "Autone_Final_Report_Screen_1";
-    private static final String KAKAO_API_KEY = "7cb5034d3170de7caea7f9eb98a29b8b";
+    private static final String KAKAO_API_KEY = "API_KEY";
 
     private DatabaseReference databaseReference;
     private TextView userLocationTextView;
