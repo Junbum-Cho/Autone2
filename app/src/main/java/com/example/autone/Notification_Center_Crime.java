@@ -55,7 +55,7 @@ public class Notification_Center_Crime extends AppCompatActivity implements mCur
     private Notification_Crime_Adapter adapter;
     private Location userLocation;
     private OkHttpClient client = new OkHttpClient();
-    private static final String KAKAO_API_KEY = "7cb5034d3170de7caea7f9eb98a29b8b"; // Add your Kakao API key here
+    private static final String KAKAO_API_KEY = "API_KEY"; // Add your Kakao API key here
 
     ArrayList<Notification_Crime_Adapter.Item> mDataSet = new ArrayList<>();
     private HashSet<String> familyUids = new HashSet<>();
