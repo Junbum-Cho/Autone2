@@ -101,7 +101,7 @@ public class Report_progress_screen extends AppCompatActivity {
     OkHttpClient client;
 
     private static final String MY_SECRET_KEY = "sk-proj-EcukJCxt4zUU2wKGoz0zT3BlbkFJz9dHmX12rMaAc9CxBSjy";
-    private static final String KAKAO_API_KEY = "7cb5034d3170de7caea7f9eb98a29b8b"; // Add your Kakao API key here
+    private static final String KAKAO_API_KEY = "API_KEY"; // Add your Kakao API key here
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     public String getCurrentDateTime() {
