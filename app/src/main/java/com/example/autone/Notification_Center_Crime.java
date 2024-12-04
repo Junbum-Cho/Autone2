@@ -266,7 +266,7 @@ public class Notification_Center_Crime extends AppCompatActivity implements mCur
     }
 
     private void fetchAddress(double lat, double lon, AddressCallback callback) {
-        String apiKey = "7cb5034d3170de7caea7f9eb98a29b8b";
+        String apiKey = "API_KEY";
         String url = "https://dapi.kakao.com/v2/local/geo/coord2address.json?x=" + lon + "&y=" + lat;
 
         Request request = new Request.Builder()
